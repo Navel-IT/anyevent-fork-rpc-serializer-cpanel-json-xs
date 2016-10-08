@@ -13,12 +13,16 @@ use constant {
     SERIALIZER => '
 use Sereal;
 
+my $encode_sereal_constructor = Sereal::Encoder->new();
+
+my $decode_sereal_constructor = Sereal::Decoder->new();
+
 (
     sub {
-        Sereal::Encoder->new()->encode(\@_);
+        $encode_sereal_constructor->encode(\@_);
     },
     sub {
-        @{Sereal::Decoder->new()->decode(shift)};
+        @{$decode_sereal_constructor->decode(shift)};
     }
 );
 '
