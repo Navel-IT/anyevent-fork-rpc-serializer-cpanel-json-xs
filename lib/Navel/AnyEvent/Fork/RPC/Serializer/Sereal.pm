@@ -13,9 +13,9 @@ use constant {
     SERIALIZER => '
 use Sereal;
 
-my $encode_sereal_constructor = Sereal::Encoder->new();
+my $encode_sereal_constructor = Sereal::Encoder->new;
 
-my $decode_sereal_constructor = Sereal::Decoder->new();
+my $decode_sereal_constructor = Sereal::Decoder->new;
 
 (
     sub {
