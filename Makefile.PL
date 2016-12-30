@@ -1,5 +1,5 @@
 # Copyright (C) 2015-2016 Yoann Le Garff, Nicolas Boquet and Yann Le Bras
-# navel-anyevent-fork-rpc-serializer-sereal is licensed under the Apache License, Version 2.0
+# anyevent-fork-rpc-serializer-sereal is licensed under the Apache License, Version 2.0
 
 #-> BEGIN
 
@@ -15,9 +15,9 @@ use ExtUtils::MakeMaker;
 my $min_perl_version = '5.18.0';
 
 WriteMakefile(
-    NAME => 'Navel::AnyEvent::Fork::RPC::Serializer::Sereal',
-    VERSION_FROM => 'lib/Navel/AnyEvent/Fork/RPC/Serializer/Sereal.pm',
-    ABSTRACT => 'navel-anyevent-fork-rpc-serializer-sereal',
+    NAME => 'AnyEvent::Fork::RPC::Serializer::Sereal',
+    VERSION_FROM => 'lib/AnyEvent/Fork/RPC/Serializer/Sereal.pm',
+    ABSTRACT => 'anyevent-fork-rpc-serializer-sereal',
     AUTHOR => 'Yoann Le Garff, Nicolas Boquet and Yann Le Bras',
     LICENSE => 'apache_2_0',
     META_MERGE => {
@@ -26,7 +26,7 @@ WriteMakefile(
         },
         resources => {
             license => 'http://www.apache.org/licenses/LICENSE-2.0.html',
-            repository => 'http://github.com/Navel-IT/navel-anyevent-fork-rpc-serializer-sereal'
+            repository => 'http://github.com/Navel-IT/anyevent-fork-rpc-serializer-sereal'
         }
     },
     MIN_PERL_VERSION => $min_perl_version,

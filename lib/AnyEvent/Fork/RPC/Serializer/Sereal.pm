@@ -1,11 +1,11 @@
 # Copyright (C) 2015-2016 Yoann Le Garff, Nicolas Boquet and Yann Le Bras
-# navel-anyevent-fork-rpc-serializer-sereal is licensed under the Apache License, Version 2.0
+# anyevent-fork-rpc-serializer-sereal is licensed under the Apache License, Version 2.0
 
 #-> BEGIN
 
 #-> initialization
 
-package Navel::AnyEvent::Fork::RPC::Serializer::Sereal 0.1;
+package AnyEvent::Fork::RPC::Serializer::Sereal 0.1;
 
 use Navel::Base;
 
@@ -46,7 +46,7 @@ __END__
 
 =head1 NAME
 
-Navel::AnyEvent::Fork::RPC::Serializer::Sereal
+AnyEvent::Fork::RPC::Serializer::Sereal
 
 =head1 COPYRIGHT
 
@@ -54,6 +54,6 @@ Copyright (C) 2015-2016 Yoann Le Garff, Nicolas Boquet and Yann Le Bras
 
 =head1 LICENSE
 
-navel-anyevent-fork-rpc-serializer-sereal is licensed under the Apache License, Version 2.0
+anyevent-fork-rpc-serializer-sereal is licensed under the Apache License, Version 2.0
 
 =cut
