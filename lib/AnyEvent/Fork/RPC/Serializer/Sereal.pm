@@ -1,4 +1,4 @@
-# Copyright (C) 2015-2016 Yoann Le Garff, Nicolas Boquet and Yann Le Bras
+# Copyright (C) 2015-2017 Yoann Le Garff, Nicolas Boquet and Yann Le Bras
 # anyevent-fork-rpc-serializer-sereal is licensed under the Apache License, Version 2.0
 
 #-> BEGIN
@@ -50,7 +50,7 @@ AnyEvent::Fork::RPC::Serializer::Sereal
 
 =head1 COPYRIGHT
 
-Copyright (C) 2015-2016 Yoann Le Garff, Nicolas Boquet and Yann Le Bras
+Copyright (C) 2015-2017 Yoann Le Garff, Nicolas Boquet and Yann Le Bras
 
 =head1 LICENSE
 
