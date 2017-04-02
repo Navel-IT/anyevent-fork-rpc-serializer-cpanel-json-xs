@@ -22,7 +22,7 @@ lives_ok {
 } 'eval SERIALIZER';
 
 lives_ok {
-    ref $deserialize->($serialize->([])) eq 'ARRAY' || die;
+    $deserialize->($serialize->([]));
 } 'serialize and deserialize';
 
 #-> main
