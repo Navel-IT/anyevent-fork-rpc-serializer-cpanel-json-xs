@@ -8,11 +8,22 @@
 use strict;
 use warnings;
 
-use Test::More tests => 1;
+use Test::More tests => 3;
+use Test::Exception;
 
 BEGIN {
     use_ok('AnyEvent::Fork::RPC::Serializer::Cpanel::JSON::XS');
 }
+
+my ($serialize, $deserialize);
+
+lives_ok {
+    ($serialize, $deserialize) = eval AnyEvent::Fork::RPC::Serializer::Cpanel::JSON::XS::SERIALIZER;
+} 'eval SERIALIZER';
+
+lives_ok {
+    ref $deserialize->($serialize->([])) eq 'ARRAY' || die;
+} 'serialize and deserialize';
 
 #-> main
 
